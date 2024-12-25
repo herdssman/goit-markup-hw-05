@@ -416,7 +416,7 @@
                 <div class="form-item">
                     <label class="modal-label" for="name">Name</label>
                     <div class="div-input">
-                        <input class="modal-input" id="name" name="name" type="text">
+                        <input class="modal-input" id="name" name="name" type="text" required>
                         <svg class="modal-icon" width="18" height="18">
                             <use href="./images/icons.svg#icon-name"></use>
                         </svg>
@@ -425,23 +425,32 @@
                 <div class="form-item">
                     <label class="modal-label" for="tel">Phone</label>
                     <div class="div-input">
-                        <input class="modal-input" id="tel" name="tel" type="tel">
+                        <input class="modal-input" id="tel" name="tel" type="tel" required>
                         <svg class="modal-icon" width="18" height="18">
-                            <use></use>
+                            <use href="./images/icons.svg#icon-tel"></use>
                         </svg>
                     </div>
                 </div>
                 <div class="form-item">
                     <label class="modal-label" for="email">Email</label>
                     <div class="div-input">
-                        <input class="modal-input" id="email" name="email" type="email">
+                        <input class="modal-input" id="email" name="email" type="email" required>
                         <svg class="modal-icon" width="18" height="18">
-                            <use></use>
+                            <use href="./images/icons.svg#icon-email"></use>
                         </svg>
                     </div>
                 </div>
-                <label for="comment"></label>
-                <input id="comment" type="text">
+                <div class="form-item">
+                    <label class="modal-label" for="comment">Comment</label>
+                    <textarea class="ta-comment" id="comment" placeholder="Text input"></textarea>
+                </div>
+                <div class="form-checkbox">
+                    <input class="checkbox visually-hidden" type="checkbox" name="checkbox" id="checkbox" required>
+                    <label class="checkbox-label" for="checkbox"><span class="custom-checkbox"><svg class="tick-icon">
+                        <use href="./images/icons.svg#icon-tick"></use>
+                    </svg></span>I accept the terms and conditions of the <a href="#" class="checkbox-link">Privacy Policy</a></label>
+                </div>
+                <button class="modal-btn" type="submit">Send</button>
             </form>
         </div>
     </div>
