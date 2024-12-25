@@ -63,6 +63,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 72px 24px 24px;
     /*opacity: 0;
     visibility: hidden;
     pointer-events: none;*/
@@ -85,8 +86,7 @@ button {
     background-color: #fcfcfc;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    padding: 72px 24px 24px 24px;
-    padding-top: 80px;
+    padding: 80px 24px 16px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -169,7 +169,6 @@ button {
     width: 100%;
     height: 40px;
     padding-left: 38px;
-    outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -204,7 +203,6 @@ button {
     letter-spacing: 0.04em;
     letter-spacing: 0.04em;
     resize: none;
-    outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
