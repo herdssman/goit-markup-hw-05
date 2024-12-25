@@ -121,7 +121,7 @@ button {
 .modal-cross:focus,
 .modal-cross:hover{
     background-color: #404bbf;
-    border: 0;
+    border: none;
 }
 
 .cross {
@@ -170,11 +170,11 @@ button {
     height: 40px;
     padding-left: 38px;
     outline: none;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus{
-    border: 1px solid #4d5ae5;
+    border-color: 1px solid #4d5ae5;
 }
 
 .modal-input:focus + .modal-icon{
@@ -244,7 +244,7 @@ button {
 .checkbox:checked + .checkbox-label .custom-checkbox{
     background-color: #404bbf;
     fill: #f4f4fd;
-    border: transparent;
+    border: none;
 }
 
 .checkbox-label{
@@ -839,11 +839,13 @@ input::placeholder{
     justify-content: center;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     border: none;
     color: #ffffff;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -861,7 +863,8 @@ input::placeholder{
 .footer-btn-icon{
     fill: #ffffff;
     margin-left: 16px;
-
+    width: 24px;
+    height: 24px;
 }
 
 .footer-btn-link{
