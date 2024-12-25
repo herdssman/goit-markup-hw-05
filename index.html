@@ -408,17 +408,38 @@
         <div class="modal">
             <p class="modal-text">Leave your contacts and we will call you back</p>
             <button class="modal-cross" type="button">
-                <svg class="cross" width="20" height="20">
+                <svg class="cross" width="8" height="8">
                     <use href="./images/icons.svg#icon-cross"></use>
                 </svg>
             </button>
             <form class="modal-form">
-                <label class="modal-label" for="name">Name</label>
-                <input class="modal-input" id="name" name="name" type="text">
-                <label class="modal-label" for="tel">Phone</label>
-                <input class="modal-input" id="tel" name="tel" type="tel">
-                <label class="modal-label" for="email">Email</label>
-                <input class="modal-input" id="email" name="email" type="email">
+                <div class="form-item">
+                    <label class="modal-label" for="name">Name</label>
+                    <div class="div-input">
+                        <input class="modal-input" id="name" name="name" type="text">
+                        <svg class="modal-icon" width="18" height="18">
+                            <use href="./images/icons.svg#icon-name"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="modal-label" for="tel">Phone</label>
+                    <div class="div-input">
+                        <input class="modal-input" id="tel" name="tel" type="tel">
+                        <svg class="modal-icon" width="18" height="18">
+                            <use></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="modal-label" for="email">Email</label>
+                    <div class="div-input">
+                        <input class="modal-input" id="email" name="email" type="email">
+                        <svg class="modal-icon" width="18" height="18">
+                            <use></use>
+                        </svg>
+                    </div>
+                </div>
                 <label for="comment"></label>
                 <input id="comment" type="text">
             </form>
